@@ -16,6 +16,14 @@ $ go build
 
 ###Use
 
+config file format:
+
+```
+${HOST1}:${PORT1} ${USER1} ${PASSWD1}
+${HOST2}:${PORT2} ${USER2} ${PASSWD2}
+```
+Example:
+
 ```
 $ qmeta -h
 Usage of qmeta:
